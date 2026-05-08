@@ -22,11 +22,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # 3. 安装 Flutter SDK（根据 pubspec.yaml 要求：Dart >=3.10.0，对应 Flutter 3.41.0+）
+      # 3. 安装 Flutter SDK（根据 pubspec.yaml 要求：Dart >=3.10.0，对应 Flutter 3.41.9）
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.41.0'
+          flutter-version: '3.41.9'
           channel: 'stable'
           cache: true
 
